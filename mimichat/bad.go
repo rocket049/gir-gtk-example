@@ -173,7 +173,6 @@ func (s *chatWindow) stringValue(v string) gobject.Value {
 }
 
 func (s *chatWindow) appendMsg(sender, msg, color string) {
-	//var iter gtk.TreeIter
 	gobject.IdleAdd(func() bool {
 		p := s.msgStore.Append()
 		s.msgStore.SetValue(p, MsgSender, s.stringValue(sender))
