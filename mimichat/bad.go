@@ -421,6 +421,20 @@ func (s *chatWindow) Example() {
 	})
 }
 
+func (s *chatWindow) RowActivated(v, p, c unsafe.Pointer) {
+	model := s.msgView.GetModel()
+	path1 := gtk.WrapTreePath(p)
+	ok, iter := model.GetIter(path1)
+	if !ok {
+		return
+	}
+	v0 := model.GetValue(iter, 0)
+	v1 := model.GetValue(iter, 1)
+	s0 := v0.GetString()
+	s1 := v1.GetString()
+	s.inputBox.SetText(fmt.Sprintf("%s:%s", s0, s1))
+}
+
 func panicError(ok bool) {
 	if !ok {
 		panic(errors.New("panicError"))

@@ -1,0 +1,11 @@
+github.com/golang/crypto v0.0.0-20190404164418-38d8ce5564a5/go.mod h1:WFFai1msRO1wXaEeE5yQxYXgSfI8pQAWXbQop6sCtWE=
+github.com/golang/net v0.0.0-20190404232315-eb5bcb51f2a3 h1:UeVAy0UDXS16ESQMxqxN8fugALO4cXbu/puW5eCV2To=
+github.com/golang/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
+github.com/golang/sys v0.0.0-20190403152447-81d4e9dc473e/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+github.com/golang/text v0.3.0/go.mod h1:GUiq9pdJKRKKAZXiVgWFEvocYuREvC14NhI4OPgEjeE=
+github.com/linuxdeepin/go-gir v0.0.0-20180122081704-5247e6ec0d59 h1:zdXNjsEvsie4PmiDIuqAA56wQ/EO+4/ffmc3OH9elfU=
+github.com/linuxdeepin/go-gir v0.0.0-20180122081704-5247e6ec0d59/go.mod h1:abG3BzoOj3V3vTs3VhhJ9EsLL0JmfzCNpWmBzVDyJPk=
+github.com/rocket049/gettext-go v0.0.0-20190404080233-af421a50b332 h1:Qfb1/EqZT9XVOp36Qu11kfb2NAC93xfUF9AkW4WO/cg=
+github.com/rocket049/gettext-go v0.0.0-20190404080233-af421a50b332/go.mod h1:kwHzDYyH1mBSE4+qy9lA14PHalXGgmolkS7Em8dwNOw=
+gopkg.in/sorcix/irc.v2 v2.0.0-20190306112350-8d7a73540b90 h1:ItuFAq9SlPhZvdIvsdgoE38i9aLLdDpBbFV9vTJhlp8=
+gopkg.in/sorcix/irc.v2 v2.0.0-20190306112350-8d7a73540b90/go.mod h1:PmJkUcwbuPi1FiZ9Rarr6wzVMvzkO7uWqH1jwrMkgW0=
